@@ -1,6 +1,6 @@
 # Max Your Flex
 
-Note that I have only compiled the flex-styles majorly used during flex development. This is not a complete documentation. Refer the following links for the complete documentation.
+Note that this is only the compilation of the flex-styles majorly used during flex development. This is not a complete documentation. Refer the following links for the complete documentation.
 
 [Official MDN Resource for Flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox) & [CSS-Tricks Resource for Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 
