@@ -3,7 +3,7 @@
 ## How Flex Works
 ![alt text](https://css-tricks.com/wp-content/uploads/2018/11/00-basic-terminology.svg "Flex Architecture")
 
-## Properties For Parent
+## Properties For Parent (flex-container)
 
 #### display
 ```css
@@ -57,7 +57,7 @@ This is a shorthand for the flex-direction and flex-wrap properties, which toget
 }
 ```
 
-## Properties For Children
+## Properties For Children (flex-items)
 
 #### order
 The order property controls the order in which they appear in the flex container.
