@@ -36,7 +36,7 @@ By default, flex items will all try to fit onto one line. You can change that an
 This is a shorthand for the flex-direction and flex-wrap properties, which together define the flex container’s main and cross axes. The default value is row nowrap.
 ```css
 .container {
-  flex-flow: flex-direction; /* or flex-wrap */
+  flex-flow: column nowrap;
 }
 ```
 
@@ -48,9 +48,10 @@ This is a shorthand for the flex-direction and flex-wrap properties, which toget
 ```
 
 #### align-items
+You can override the align-items behavior for individual flex items by applying the align-self property to the particular item.
 ```css
 .container {
-  align-items: stretch | flex-start | flex-end | center | baseline ;
+  align-items: stretch | flex-start | flex-end | center;
 }
 ```
 
@@ -64,7 +65,7 @@ This is a shorthand for the flex-direction and flex-wrap properties, which toget
 ## Properties For Children (flex-items)
 
 #### order
-The order property controls the order in which they appear in the flex container.
+The order property controls the order in which they appear in the flex container. Flex items with higher order values set on them will appear later in the display order than items with lower order values.
 ```css
 .item {
   order: 5; /* default is 0 */
