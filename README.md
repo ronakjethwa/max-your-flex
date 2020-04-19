@@ -98,5 +98,5 @@ This allows the default alignment (or the one specified by align-items) to be ov
 
 float, clear and vertical-align have no effect on a flex item.
 
-## Learn Flex With Fun?
-[Flexbox Zombies](https://geddski.teachable.com/p/flexbox-zombies) & [Flexbox Froggy](https://flexboxfroggy.com/)
+## Flex With Fun?
+Check out [Flexbox Zombies](https://geddski.teachable.com/p/flexbox-zombies) & [Flexbox Froggy](https://flexboxfroggy.com/).
